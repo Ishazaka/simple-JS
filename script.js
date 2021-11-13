@@ -24,3 +24,14 @@ let stMarks = {
  foek: 57
 }
 console.log("data type of stMarks is " + typeof stMarks);
+
+function findname(){
+
+}
+console.log("data type of findname is " + typeof findname);
+
+let date= new Date();
+console.log("data type of date is " + typeof date);
+
+
+
