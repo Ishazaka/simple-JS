@@ -25,13 +25,15 @@ let stMarks = {
 }
 console.log("data type of stMarks is " + typeof stMarks);
 
+// functions type
 function findname(){
 
 }
 console.log("data type of findname is " + typeof findname);
 
+// date type
 let date= new Date();
 console.log("data type of date is " + typeof date);
 
-
+//  type conversion and & coercion
 
