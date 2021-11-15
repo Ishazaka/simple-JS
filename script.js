@@ -75,5 +75,22 @@ console.log(i.toString());
 
 // converting into numbers
 
+let x = "3434";
+console.log(x , typeof x);
+ 
+ x = Number("3434");
+console.log(x , typeof x);
+
+x = Number("34db34");
+console.log(x , typeof x);
+
+x = Number(true);
+console.log(x , typeof x);
+
+x = Number(false);
+console.log(x , typeof x);
+
+x = Number([1,2,3,4,5]);
+console.log(x , typeof x);
 
 
