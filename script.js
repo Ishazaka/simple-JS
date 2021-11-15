@@ -180,3 +180,18 @@ console.log(html.slice(-4)); //give the character from the last
 console.log(html.split(" ")); //it splits the context into array 
 //it splits from every space
 
+
+console.log(html.split("<")); //it splits the context into array from every  (<) sign
+
+console.log(html.replace("this", "it")); //it replaces only first occurence
+
+//Template literals
+
+let fruit1 = "orange";
+let fruit2 = "apple";
+
+let myhtml = ` Hello ${name}
+  <h1> this is heading </h1>
+ <p> you like ${fruit1} and ${fruit2}</p> `;
+
+document.body.innerHtml = myhtml;
