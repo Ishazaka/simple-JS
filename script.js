@@ -93,4 +93,18 @@ console.log(x , typeof x);
 x = Number([1,2,3,4,5]);
 console.log(x , typeof x);
 
+// ParseINt and ParseFloat
+
+
+let y = ("34.048");
+console.log(y , typeof y);
+
+ y = parseInt("34.048");
+console.log(y , typeof y);
+
+ y = parseFloat("34.048");
+console.log(y , typeof y);
+
+ y = ("34.048");
+console.log(y.toFixed(5) , typeof y);
 
