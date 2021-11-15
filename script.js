@@ -57,3 +57,5 @@ console.log( myvarr +" data type of 34 is " + typeof myvarr);
 myvarr = new Date();
 console.log( myvarr +" (data type of date is " + typeof myvarr + ")");
 
+myvarr = String(new Date());
+console.log( myvarr +" (data type of date is " + typeof myvarr + ")");
