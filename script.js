@@ -59,3 +59,12 @@ console.log( myvarr +" (data type of date is " + typeof myvarr + ")");
 
 myvarr = String(new Date());
 console.log( myvarr +" (data type of date is " + typeof myvarr + ")");
+
+myvarr = [1,2,3,4,5];
+console.log( myvarr.length +" (data type of this is " + typeof myvarr + ")")
+
+myvarr = String([1,2,3,4,5]);
+console.log( myvarr.length +" (data type of this is " + typeof myvarr + ")");
+
+
+
