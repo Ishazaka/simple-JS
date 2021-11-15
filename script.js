@@ -166,3 +166,17 @@ console.log(html.charAt(5));
 console.log(html.endsWith("hey"));
 
 console.log(html.endsWith("heyhello"));
+
+console.log(html.includes("paragraph"));
+
+console.log(html.substring(1,6)); //give the characters from start
+
+console.log(html.substring(-4)); //it will give the whole context
+
+console.log(html.slice(1,6)); //give the character from the start
+
+console.log(html.slice(-4)); //give the character from the last
+
+console.log(html.split(" ")); //it splits the context into array 
+//it splits from every space
+
