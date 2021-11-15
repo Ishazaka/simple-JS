@@ -37,3 +37,7 @@ console.log("data type of date is " + typeof date);
 
 //  type conversion and & coercion
 
+let myvar,
+myvarr = 34;
+console.log( myvarr +" data type of 34 is " + typeof myvarr);
+//  to convert in string use String
