@@ -124,3 +124,17 @@ console.log( y.toFixed(14), typeof y);
 let a = "678";
 let b = 78;
 console.log(a + b);
+
+// String Properties , Methods and template literals
+
+const personname = "harry";
+const greeting = "good Morning";
+// to write both strings together we use concatenation sign(+)
+console.log(greeting + " " +personname)
+
+let html;
+html = "<h1> this is heading </h1>" +
+     "<p> this is paragraph </p>";
+
+console.log(html);
+console.log(html.length);
