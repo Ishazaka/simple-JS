@@ -49,5 +49,11 @@ console.log( myvarr +" data type of 34 is " + typeof myvarr);
  myvarr = true;
  console.log( myvarr +" (data type of true is " + typeof myvarr + ")");
 
+ myvarr =String(true);
+ console.log( myvarr +" (data type of true is " + typeof myvarr + ")");
 
+// like above conversion , convert date and arrays 
+
+myvarr = new Date();
+console.log( myvarr +" (data type of date is " + typeof myvarr + ")");
 
