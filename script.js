@@ -138,3 +138,17 @@ html = "<h1> this is heading </h1>" +
 
 console.log(html);
 console.log(html.length);
+
+
+html = html.concat("hey", "hello");// 2nd method of concatenation
+console.log(html);
+
+// string functions
+console.log(html.length);
+
+console.log(html.toLowerCase());
+console.log(html.toUpperCase());
+
+// the above functions only returns the value not change the original defined variable
+console.log(html);
+
