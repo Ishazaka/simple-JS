@@ -41,3 +41,13 @@ let myvar,
 myvarr = 34;
 console.log( myvarr +" data type of 34 is " + typeof myvarr);
 //  to convert in string use String
+
+myvarr = String(34);
+console.log( myvarr +" data type of 34 is " + typeof myvarr);
+
+// convert boolean
+ myvarr = true;
+ console.log( myvarr +" (data type of true is " + typeof myvarr + ")");
+
+
+
