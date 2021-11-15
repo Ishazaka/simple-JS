@@ -66,5 +66,14 @@ console.log( myvarr.length +" (data type of this is " + typeof myvarr + ")")
 myvarr = String([1,2,3,4,5]);
 console.log( myvarr.length +" (data type of this is " + typeof myvarr + ")");
 
+let i = 78;
+console.log(i);
+
+ i = 88;
+console.log(i.toString());
+
+
+// converting into numbers
+
 
 
