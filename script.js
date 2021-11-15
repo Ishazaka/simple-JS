@@ -152,3 +152,17 @@ console.log(html.toUpperCase());
 // the above functions only returns the value not change the original defined variable
 console.log(html);
 
+console.log(html[1]);
+console.log(html[0]);
+
+console.log(html.indexOf("heading"));
+console.log(html.indexOf("fit"));
+
+console.log(html.indexOf("<"));
+console.log(html.lastIndexOf("<"));
+
+console.log(html.charAt(5));
+
+console.log(html.endsWith("hey"));
+
+console.log(html.endsWith("heyhello"));
