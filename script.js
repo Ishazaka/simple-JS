@@ -105,6 +105,22 @@ console.log(y , typeof y);
  y = parseFloat("34.048");
 console.log(y , typeof y);
 
- y = ("34.048");
-console.log(y.toFixed(5) , typeof y);
+ y = parseFloat("34.048");
+console.log(y.toFixed , typeof y);
 
+
+// toFixed functions with differ method
+
+ y = Number("134.048") ;
+console.log( y.toFixed(14), typeof y);
+
+y = 678;
+console.log( y.toFixed(14), typeof y);
+
+
+// Type coercion
+// it converts both into one e.g. js converts number into string then apply  addition
+
+let a = "678";
+let b = 78;
+console.log(a + b);
