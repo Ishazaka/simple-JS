@@ -317,3 +317,29 @@ let oldage = 75;
 console.log(oldage==65? 'you are our customer': 'you are too old');
 
 
+// Switch Case
+
+let yourage = 38;
+
+switch(yourage){
+case(18):
+console.log('you are 18', 'yes you are eligible for this post');
+break;
+case(28):
+console.log('you are 28', 'yes you are eligible for this post');
+break;
+case(38):
+console.log('you are 38', 'yes you are eligible for this post');
+break;
+case(48):
+console.log('you are 48', 'yes you are eligible for this post');
+break;
+case(58):
+console.log('you are 58', 'yes you are eligible for this post');
+break;
+default:
+console.log('you are too old');
+break;
+
+}
+
