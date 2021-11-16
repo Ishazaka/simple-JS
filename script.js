@@ -235,4 +235,27 @@ console.log(stmarks );
 stmarks.pop();
 console.log(stmarks );
 
+// unshift and shift
+
+stmarks.unshift(9114);
+console.log(stmarks );
+
+stmarks.unshift(7137);
+console.log(stmarks );
+
+stmarks.shift();
+console.log(stmarks );
+
+// Splice
+
+stmarks.splice(2,2);
+console.log(stmarks );
+
+stmarks.splice(0,2);
+console.log(stmarks );
+
+// reverse
+stmarks.reverse();
+console.log(stmarks );
+
 
