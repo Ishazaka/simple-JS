@@ -195,3 +195,23 @@ let myhtml = ` Hello ${name}
  <p> you like ${fruit1} and ${fruit2}</p> `;
 
 document.body.innerHtml = myhtml;
+
+// Arrays and Objects
+
+ let stmarks = [34, 23, 24, 93, 73, 25];
+ let fruits = ["orange", "Apple", "Pineapple"];
+ let mixed = ['hello', 89, [3,5]];
+
+ let arr = new Array(23,123,21,'orange');
+ console.log(stmarks);
+
+console.log(fruits);
+console.log(arr);
+
+console.log(stmarks[0]);
+
+console.log(stmarks.length);
+console.log(Array.isArray(mixed));
+
+
+
