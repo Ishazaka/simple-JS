@@ -259,3 +259,29 @@ stmarks.reverse();
 console.log(stmarks );
 
 
+// concat
+
+let stmarks2 = [1,2,3,4];
+
+stmarks = stmarks.concat(stmarks2);
+console.log(stmarks );
+
+
+// objects
+
+let myobj = {
+'stname' : 'harry',
+'class' : '12th',
+isActive : true ,
+hismarks : [34, 49,57]
+};
+console.log(myobj );
+
+console.log(myobj.hismarks );
+console.log(myobj.class );
+// console.log(myobj.'stname' );
+console.log(myobj['stname']);
+console.log( 'class :' ,myobj['class']);
+
+
+
