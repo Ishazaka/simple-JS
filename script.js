@@ -285,3 +285,35 @@ console.log( 'class :' ,myobj['class']);
 
 
 
+// If Else conditions and switches
+
+let age = 65
+
+if(age>=19){
+  console.log('your are eligible for application');
+}else{
+  console.log('you cannot apply');
+}
+
+// if else if statement
+
+let st_age = 64;
+
+if (st_age==19){
+  console.log('Age is not 19')
+}
+else if(st_age<19) 
+{
+  console.log('congratulations');
+}
+else{
+  console.log('you can take part');
+} 
+
+// ternary operator
+
+let oldage = 75;
+
+console.log(oldage==65? 'you are our customer': 'you are too old');
+
+
