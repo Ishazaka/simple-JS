@@ -213,5 +213,26 @@ console.log(stmarks[0]);
 console.log(stmarks.length);
 console.log(Array.isArray(mixed));
 
+console.log(Array.isArray("tiptop"));
+
+arr[0] = 'harry';
+console.log(arr);
+
+let x = arr[0];
+console.log('element :',x );
+console.log('first name :',x );
+
+let value = stmarks.indexOf(73);
+console.log(value);
+
+// Push and Pop
+
+stmarks.push(3564);
+console.log(stmarks );
+stmarks.push(48);
+console.log(stmarks );
+
+stmarks.pop();
+console.log(stmarks );
 
 
