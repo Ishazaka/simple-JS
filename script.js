@@ -343,3 +343,21 @@ break;
 
 }
 
+
+// while loops
+
+let j = 0;
+while(j<10){
+console.log(j + ' Are you ready for success');
+j++
+}
+
+
+//  Do while loops
+
+let n = 0;
+do{
+  console.log(n ,' hello');
+  n++
+}while(n<=10);
+
