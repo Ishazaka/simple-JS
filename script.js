@@ -361,3 +361,20 @@ do{
   n++
 }while(n<=10);
 
+
+// for loops
+
+for(let m=0; m<=9; m++){
+  console.log(m +' hey');
+}
+
+// forEach loops (uses in arrays)
+
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(array1));
+
+
+array1.forEach(function(element){
+  console.log(element)
+});
