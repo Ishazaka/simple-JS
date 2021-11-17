@@ -394,3 +394,19 @@ const object1 = {
   b:2,
   c:3
 };
+
+
+for(const key in object1){
+  console.log(`the ${key} of object1 is ${object1[key]}`);
+}
+
+const object2 = {
+  'first name' : 'robin',
+  'last name' : 'warner',
+  'education' : 'phd' ,
+  gender: 'female' ,
+};
+for( const property in object2){
+  console.log(`the ${property} in object is ${object2[property]}`);
+}
+
