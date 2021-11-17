@@ -254,6 +254,25 @@ console.log(stmarks );
 stmarks.splice(0,2);
 console.log(stmarks );
 
+
+stmarks.splice(-3,2);
+console.log(stmarks );
+
+stmarks.splice(0,2,271,89,432,71,64,52);
+console.log(stmarks );
+
+
+stmarks.splice(-3,2);
+console.log(stmarks );
+
+stmarks.splice(-4,2,'harry','jozef',121,212);
+console.log(stmarks );
+
+
+
+
+
+
 // reverse
 stmarks.reverse();
 console.log(stmarks );
