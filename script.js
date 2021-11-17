@@ -378,3 +378,19 @@ array1.forEach(element => console.log(array1));
 array1.forEach(function(element){
   console.log(element)
 });
+
+
+const array2 = ['4', '6', '8', '5'];
+
+array2.forEach(function(element,array ,index){
+  console.log(element,array,index)
+});
+
+
+// forIn loops (uses in objects)
+
+const object1 = {
+  a:1,
+  b:2,
+  c:3
+};
