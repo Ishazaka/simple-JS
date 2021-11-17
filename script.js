@@ -268,9 +268,14 @@ console.log(stmarks );
 stmarks.splice(-4,2,'harry','jozef',121,212);
 console.log(stmarks );
 
+   // slice  (it will make a new array of that values)
 
 
+ let stmarksheet = stmarks.slice(3,5);  //it takes value from index3 to index5
+console.log('stmarksheet is', stmarksheet );
 
+let stmarks0 = stmarks.slice(3,6,);
+console.log( 'stmarks0 is', stmarks0 );
 
 
 // reverse
