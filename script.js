@@ -451,3 +451,16 @@ console.log(" Welcome " + fname + " " +lname);
 
 }
 
+function sum(a,b){
+
+console.log(a + b);
+
+}
+
+sum(48,2);
+
+document.write("<br>");
+
+hello ("MISS", "HAZEL");
+
+document.write("<br>");
