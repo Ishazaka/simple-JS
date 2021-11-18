@@ -464,3 +464,13 @@ document.write("<br>");
 hello ("MISS", "HAZEL");
 
 document.write("<br>");
+
+
+welcome("Our","Website" );
+
+welcome("here","guys" );
+
+document.write("<br>");
+
+sum(12,8);
+
