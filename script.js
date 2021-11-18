@@ -434,3 +434,20 @@ for( const property in object2){
   console.log(`the ${property} in object is ${object2[property]}`);
 }
 
+
+
+//  //functions with parameters in js ----
+
+
+function hello(fname ,lname){
+
+console.log(" HELLO " + fname + " " +lname);
+
+}
+
+function welcome(fname="Every" ,lname="Body"){
+
+console.log(" Welcome " + fname + " " +lname);
+
+}
+
