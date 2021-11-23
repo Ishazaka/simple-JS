@@ -474,3 +474,6 @@ document.write("<br>");
 
 sum(12,8);
 
+
+// functions
+
