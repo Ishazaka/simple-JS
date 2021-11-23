@@ -476,4 +476,7 @@ sum(12,8);
 
 
 // functions
-
+<!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
