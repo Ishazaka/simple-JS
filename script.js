@@ -475,4 +475,11 @@ document.write("<br>");
 sum(12,8);
 
 
-// functions
+// DOM
+
+let element = document.createElement('li');
+let text = document.createTextNode('I am a text node');
+element.appendChild(text)
+
+
+
