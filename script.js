@@ -497,3 +497,10 @@ elem2.id = 'elem2';
 elem2.className = 'elem2';
 let tnode = document.createTextNode('This is a created node for elem2');
 elem2.appendChild(tnode);
+
+
+myul.removeChild(document.getElementById('lui'));
+let pr = elem2.hasAttribute('href');
+elem2.removeAttribute('id');
+elem2.setAttribute('title', 'myelem2title');
+console.log(elem2, pr);
